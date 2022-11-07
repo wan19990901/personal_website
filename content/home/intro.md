@@ -4,6 +4,9 @@ headless: true
 weight: 10
 author: admin
 widget_id: RECENT-POSTS
+design:
+  background:
+    image: avatar.jpeg
 ---
 
 👋 Hi, there! I'm Guangya Wan 
