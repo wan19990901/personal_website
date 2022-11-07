@@ -13,19 +13,19 @@ social:
   - display:
       header: false
     label: Linkedin
-    icon_pack: fas
+    icon_pack: fab
     link: https://www.linkedin.com/in/guangya-wan-90b289189/
     icon: linkedin
   - display:
       header: false
     link: https://github.com/wan19990901
-    icon_pack: fas
+    icon_pack: fab
     icon: github
     label: Github
   - display:
       header: false
     link: https://github.com/wan19990901
-    icon_pack: fas
+    icon_pack: fab
     icon: book
     label: Github
 organizations:
