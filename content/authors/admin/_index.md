@@ -1,6 +1,6 @@
 ---
 title: Guangya Wan
-role: ""
+role: Master of Science in Biostatistics
 avatar_filename: avatar.jpeg
 bio: My research interests include fairness in data science, deep learning,
   natural langauge processing, computer vision, and their applications in the
@@ -15,14 +15,16 @@ social:
     label: Linkedin
     icon_pack: fas
     link: https://www.linkedin.com/in/guangya-wan-90b289189/
-    icon: fa-linkedin
+    icon: linkedin-in
   - display:
       header: false
     link: https://github.com/wan19990901
     icon_pack: fas
-    icon: <i class="fa-brands fa-github"></i>
+    icon: f09b
     label: Github
-organizations: []
+organizations:
+  - name: Boston Children Hospital
+  - name: Harvard University
 education:
   courses:
     - course: Master of Science in Biostatistics with a Specialization in Data Science
