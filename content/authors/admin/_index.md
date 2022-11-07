@@ -1,10 +1,10 @@
 ---
 title: Guangya Wan
 role: ""
-avatar_filename: myphoto.jpeg
-bio: My research interests include machine learning, natural langauge
-  processing, computer vision, and fairness, especially in the public health
-  field.
+avatar_filename: wechatimg8619.jpeg
+bio: My research interests include fairness in data science, deep learning,
+  natural langauge processing, computer vision, and their applications in the
+  public health field.
 interests:
   - Hiking
   - Astrophotography
