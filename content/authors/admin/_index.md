@@ -5,6 +5,10 @@ avatar_filename: myphoto.jpeg
 bio: My research interests include machine learning, natural langauge
   processing, computer vision, and fairness, especially in the public health
   field.
+interests:
+  - Hiking
+  - Astrophotography
+  - Travelling
 social:
   - display:
       header: false
@@ -12,16 +16,15 @@ social:
     icon_pack: far
     link: https://www.linkedin.com/in/guangya-wan-90b289189/
     icon: linkedin
-organizations:
-  - name: Harvard University
-  - name: University of Illinois, Urbana Champaign
-  - name: Boston Children Hospital
+organizations: []
 education:
   courses:
-    - course: Computer Vision
-      institution: MIT
-    - course: Parallel Computing
-      institution: Harvard University
+    - course: Master of Science in Biostatistics with a Specialization in Data Science
+      institution: Harvard
+      year: 2021
+    - course: Bachelor of Science in Statistics, Minor in Computer Science
+      institution: University of Illinois, Urbana Champaign
+      year: 2016
 email: wanguangya@gmail.com
 superuser: true
 status:
