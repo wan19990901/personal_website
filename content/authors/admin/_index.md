@@ -15,12 +15,18 @@ social:
     label: Linkedin
     icon_pack: fas
     link: https://www.linkedin.com/in/guangya-wan-90b289189/
-    icon: linkedin-in
+    icon: linkedin
   - display:
       header: false
     link: https://github.com/wan19990901
     icon_pack: fas
-    icon: f09b
+    icon: github
+    label: Github
+  - display:
+      header: false
+    link: https://github.com/wan19990901
+    icon_pack: fas
+    icon: book
     label: Github
 organizations:
   - name: Harvard University
