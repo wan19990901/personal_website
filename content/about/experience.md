@@ -25,7 +25,7 @@ experience:
   - title: Research Associate
     company: The Boston Children's Hospital Computational Health Informatics Program (CHIP)
     company_url: 'https://cavalab.org/'
-    company_logo: org-Cavalab
+    # company_logo: org-Cavalab
     location: Boston, MA
     date_start: '2022-01-01'
     date_end: ''
@@ -53,7 +53,7 @@ experience:
   - title: Professor of Semiconductor Physics
     company: University X
     company_url: ''
-    company_logo: org-Chewy
+    # company_logo: org-Chewy
     location: Boston
     date_start: '2022-06-06'
     date_end: '2022-08-13'
