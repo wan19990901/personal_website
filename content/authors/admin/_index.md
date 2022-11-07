@@ -1,7 +1,7 @@
 ---
 title: Guangya Wan
 role: ""
-avatar_filename: wechatimg8619.jpeg
+avatar_filename: avatar.jpeg
 bio: My research interests include fairness in data science, deep learning,
   natural langauge processing, computer vision, and their applications in the
   public health field.
@@ -13,9 +13,15 @@ social:
   - display:
       header: false
     label: Linkedin
-    icon_pack: far
+    icon_pack: fas
     link: https://www.linkedin.com/in/guangya-wan-90b289189/
-    icon: linkedin
+    icon: fa-linkedin
+  - display:
+      header: false
+    link: https://github.com/wan19990901
+    icon_pack: fas
+    icon: <i class="fa-brands fa-github"></i>
+    label: Github
 organizations: []
 education:
   courses:
