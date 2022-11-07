@@ -1,8 +1,7 @@
 ---
 title: Guangya Wan
 role: ""
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests include natural langauge processing.
 superuser: true
 status:
   icon: ☕️
