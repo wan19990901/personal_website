@@ -28,11 +28,11 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
+    - name: Machine Learning Applications
       tag: ML
-    - name: Computer Vision
+    - name: Fairness & Interpretability
       tag: CV
-    - name: NLP
+    - name: Clinical NLP
       tag: NLP
 
 design:
