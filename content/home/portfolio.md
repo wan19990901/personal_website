@@ -31,7 +31,7 @@ content:
     - name: Machine Learning Applications
       tag: ML
     - name: Fairness & Interpretability
-      tag: Fair
+      tag: CV
     - name: Clinical NLP
       tag: NLP
 

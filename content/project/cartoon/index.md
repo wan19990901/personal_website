@@ -10,6 +10,6 @@ method like RNN and CNN on the clinical text. Have clinician checked for the acc
 • Retrained XGboost model on the imputed dataset. Compared the best tuned model with a rule based model on test dataset
 and constantly produce more better results (0.9 vs 0.7 acc) on our final model according to the manual check by clinicians.
 tags:
-  - Fair
+  - CV
 external_link: https://github.com/wan19990901/MIT-6.871-Project
 ---
