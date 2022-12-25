@@ -6,9 +6,11 @@ author: admin
 widget_id: RECENT-POSTS
 design:
   background:
-    image: dsc_0056.jpg
-    color: "#000000"
+    image: dsc_0024.jpg
+    color: "#463232"
     text_color_light: false
+    gradient_start: "#000000"
+    gradient_end: "#883f3f"
 ---
 👋 Hi, there! I'm Guangya Wan,
 
