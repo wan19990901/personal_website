@@ -34,6 +34,8 @@ content:
       tag: Fair
     - name: Clinical NLP
       tag: NLP
+    - name: Other Projects
+      tag: CS
 
 design:
   columns: '1'
