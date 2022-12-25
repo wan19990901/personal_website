@@ -6,7 +6,7 @@ author: admin
 widget_id: RECENT-POSTS
 design:
   background:
-    image: dsc_0024.jpg
+    image: dsc_0234.jpg
     color: "#463232"
     text_color_light: false
     gradient_start: "#000000"
