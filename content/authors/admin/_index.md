@@ -2,8 +2,8 @@
 title: Guangya Wan
 role: Master of Science in Biostatistics @ Harvard School of Public Health
 avatar_filename: avatar.jpeg
-bio: My research interests include fairness in data science, deep learning,
-  natural langauge processing, computer vision, and their applications in the
+bio: My research interests include fairness in data science, machine learning,
+  natural langauge processing, and their applications in the
   public health field.
 interests:
   - Hiking
@@ -22,12 +22,12 @@ social:
     icon_pack: fab
     icon: github
     label: Github
-  - display:
-      header: false
-    link: https://github.com/wan19990901
-    icon_pack: fab
-    icon: book
-    label: Github
+  # - display:
+  #     header: false
+  #   link: https://github.com/wan19990901
+  #   icon_pack: fab
+  #   icon: book
+  #   label: Github
 organizations:
   - name: Harvard University
     url: https://www.hsph.harvard.edu/biostatistics/
@@ -46,10 +46,10 @@ education:
   courses:
     - course: Master of Science in Biostatistics with a Specialization in Data Science
       institution: Harvard
-      year: 2021
+      year: 2021-2023
     - course: Bachelor of Science in Statistics, Minor in Computer Science
       institution: University of Illinois, Urbana Champaign
-      year: 2016
+      year: 2017-2020
 email: wanguangya@gmail.com
 superuser: true
 status:
