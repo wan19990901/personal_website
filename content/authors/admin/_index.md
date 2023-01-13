@@ -22,12 +22,12 @@ social:
     icon_pack: fab
     icon: github
     label: Github
-  # - display:
-  #     header: false
-  #   link: https://github.com/wan19990901
-  #   icon_pack: fab
-  #   icon: book
-  #   label: Github
+  - display:
+      header: false
+    link: gwan@hsph.harvard.edu
+    icon_pack: fab
+    icon: email
+    label: Email
 organizations:
   - name: Harvard University
     url: https://www.hsph.harvard.edu/biostatistics/
