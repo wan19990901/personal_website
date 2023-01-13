@@ -1,9 +1,8 @@
 ---
-title: Predicting the Ourbreak of WestNile Virus with Social-economical Factors
-subtitle: "National Center for Supercomputing Applications "
+title: Subjectivity Analysis of Clinical Notes
+subtitle: "MIT EECS 6.S982 Clinical Data Learning and Deployment Research Project "
 date: 2022-01-01
-summary: Machine Learning models to explain and predict the outbreak virus
-tags:
-  - CS
-external_link: https://docs.google.com/document/d/1ZCvWmsYVTYmxPgIhn0qKwkC02__NSQZ1R_Wta0n_fmM/edit#heading=h.jwflxwe422fe
+summary: Using Large Language Model to predict the subjectivity of clinical notes
+  - NLP
+external_link: https://github.com/wan19990901/EECS6.S982_Sentiment
 ---
