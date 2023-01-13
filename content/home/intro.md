@@ -14,7 +14,7 @@ design:
 ---
 👋 Hi, there! I'm Guangya Wan,
 
-Thanks for visiting my personal page! (Still Under Development)
+Thanks for visiting my personal page! 
 
 {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -wegbkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
