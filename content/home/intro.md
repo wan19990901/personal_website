@@ -18,4 +18,4 @@ Thanks for visiting my personal page! (Still Under Development)
 
 {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
-P﻿lease Check out my [resumé](/about/) and Project below to learn more about my background
+P﻿lease Check out my [resumé](/about/) and Project (and my favoriate taken pictures!) below to learn more about my background
