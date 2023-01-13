@@ -37,9 +37,9 @@ organizations:
     url: https://careers.chewy.com/us/en/c/data-science-analytics-jobs
   - name: The Fields Institute for Research in Mathematical Sciences
     url: http://www.fields.utoronto.ca/activities/20-21/2020-FUSRP
-  - name: National Center for Supercomputing Applications SPIN Program
-    url: http://spin.ncsa.illinois.edu/interns/2019.html  (Used Wayne as my first
+  - name: National Center for Supercomputing Applications SPIN Program (Used Wayne as my first
       name)
+    url: http://spin.ncsa.illinois.edu/interns/2019.html  
   - name: Universitu of Illinois, Urbana Champaign
     url: https://stat.illinois.edu/
 education:
