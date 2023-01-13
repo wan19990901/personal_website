@@ -26,7 +26,7 @@ social:
       header: false
     link: gwan@hsph.harvard.edu
     icon_pack: fab
-    icon: email
+    icon: envelope
     label: Email
 organizations:
   - name: Harvard University
