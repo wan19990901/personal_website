@@ -40,7 +40,7 @@ organizations:
   - name: National Center for Supercomputing Applications SPIN Program (Used Wayne as my first
       name)
     url: http://spin.ncsa.illinois.edu/interns/2019.html  
-  - name: Universitu of Illinois, Urbana Champaign
+  - name: University of Illinois, Urbana Champaign
     url: https://stat.illinois.edu/
 education:
   courses:
