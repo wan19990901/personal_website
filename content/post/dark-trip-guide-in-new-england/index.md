@@ -4,7 +4,7 @@ date: 2023-01-13T19:07:51.757Z
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: dsc_0338.jpg
   focal_point: Smart
   preview_only: false
 ---
