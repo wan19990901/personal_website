@@ -8,7 +8,11 @@ bio: My research interests include fairness in data science, machine learning,
 interests:
   - Hiking
   - Astrophotography
-  - Travelling
+  - Cooking
+  - Piano
+  - Basketball
+  - Soccer
+  - Horror Movies
 social:
   - display:
       header: false
