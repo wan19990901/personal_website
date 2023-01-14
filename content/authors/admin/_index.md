@@ -9,6 +9,8 @@ interests:
   - Hiking
   - Astrophotography
   - Cooking
+  - Video Games
+  - Fishing
   - Piano
   - Basketball
   - Soccer
