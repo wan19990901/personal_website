@@ -8,4 +8,4 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-P﻿hoto takens in Cape Cod
+P﻿hoto takens in Cape Cod (Photo Editing Incomplete)
