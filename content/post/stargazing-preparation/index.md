@@ -46,8 +46,8 @@ Equipment
 
 
 It is entirely possible to do your own dark sky trip without any equipment and just appreciate
-what you can see with the naked eye. However, if you do you want to bring any optical aids, we
-have some suggestions. To begin with, we highly recommend starting with a pair of binoculars
+what you can see with the naked eye. However, if you do you want to bring any optical aids, I
+have some suggestions. To begin with,  I highly recommend starting with a pair of binoculars
 instead of a telescope. They’re easier to aim at an object, and help you get a feel for what some
 magnification might offer at a cheaper intro price. A decent intro pair can be had for around $30
 dollars . Anything from 7x to 10x magnification is reasonable and will allow you
