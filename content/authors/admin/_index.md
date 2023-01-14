@@ -57,11 +57,11 @@ status:
 ---
 <!--StartFragment-->
 
-I am currently a master student at Harvard Chan School of Public Health, concentrating in biostatistics and data science.  I am also part of the CHIP program in Boston Children Hospital and worked as a part time research assistant at the <https://cavalab.org/>. under the supervision of Professor La Cava <https://cavalab.org/members/lacava-william/>
+I am currently a master student at Harvard Chan School of Public Health, concentrating in biostatistics and data science.  I am also part of the CHIP program in Boston Children Hospital and worked as a part time research assistant at the [Cava Lab](<https://cavalab.org/>). under the supervision of Professor [William La Cava](<https://cavalab.org/members/lacava-william/>)
 
 B﻿efore my master program, I completed my B.S. in statistics at University of Illinois, Urbana Champaign, with a minor in computer science. 
 
-D﻿uring my undergrad, I was also fortunate to be part of the SPIN program and worked as a research assistant in the Genomics Group at the National Center for Supercomputing Application, Supervised by Professor Liudimila d<https://ccbgm.illinois.edu/people/liudmila-sergeevna-mainzer/>
+D﻿uring my undergrad, I was also fortunate to be part of the SPIN program and worked as a research assistant in the Genomics Group at the National Center for Supercomputing Application, Supervised by Professor [Liudimila Mainzer](<https://ccbgm.illinois.edu/people/liudmila-sergeevna-mainzer/>)
 
 I﻿ also spent my summer of Junior year at the Fields Institude, University of Toronto as a summer research fellow and the summer of my first summer year at Chewy as a data science intern.
 
