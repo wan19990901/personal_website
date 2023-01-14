@@ -38,4 +38,25 @@ helpful!
 
 ● Stellarium is the best thing to use before you go stargazing. It’s a free and easy-to-use
 computer app that has a TON of data about everything in the sky — most my dark
-sky trips are planned based on what Stellarium has to say! \
+sky trips are planned based on what Stellarium has to say! 
+
+
+
+Equipment
+
+
+It is entirely possible to do your own dark sky trip without any equipment and just appreciate
+what you can see with the naked eye. However, if you do you want to bring any optical aids, we
+have some suggestions. To begin with, we highly recommend starting with a pair of binoculars
+instead of a telescope. They’re easier to aim at an object, and help you get a feel for what some
+magnification might offer at a cheaper intro price. A decent intro pair can be had for around $30
+dollars . Anything from 7x to 10x magnification is reasonable and will allow you
+to see more detail in certain celestial objects.
+If you are set on a big telescope purchase, make sure to do your research! Many an astronomy
+hobby has been killed by people enthusiastically purchasing a telescope that isn’t right for them.
+There are plenty of hobby groups online - you can look into joining the email list for a local
+astronomy group (maybe even in your hometown), as people there are always happy to help out
+a newcomer. There are also plenty of online communities, particularly on Reddit; check out
+r/telescopes, r/astrophotography, or r/astronomy (most of them have links to wikis in their
+descriptions with plenty of fun tips). This thread ( https://www.reddit.com/r/telescopes/comments/i0tzkw/an_absolute_beginners_quickguide_to_choosing_your/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) is a particularly good introduction to choosing a
+telescope.
