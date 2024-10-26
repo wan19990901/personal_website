@@ -1,0 +1,406 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --light-gray: #f5f5f5;
+    --border-color: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-gray);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: white;
+    padding: 40px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    text-align: center;
+    position: relative;
+}
+
+.profile-picture-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.05);
+}
+
+.profile-name {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.profile-title {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-info a {
+    color: var(--accent-color);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.research-area {
+    margin-bottom: 3rem;
+}
+
+.research-area h3 {
+    color: var(--primary-color);
+    font-size: 1.4em;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.research-area > p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1em;
+    color: var(--secondary-color);
+}
+
+.publication-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: var(--light-gray);
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.publication-item:hover {
+    transform: translateX(10px);
+}
+
+.publication-authors {
+    color: var(--secondary-color);
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.publication-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.publication-venue {
+    color: var(--accent-color);
+    font-size: 0.9em;
+}
+
+.publication-venue a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.publication-venue a:hover {
+    text-decoration: underline;
+}
+
+.project-item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-left: 3px solid var(--accent-color);
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.1em;
+}
+.subsection-title {
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px dashed var(--accent-color);
+}
+
+.publication-description {
+    margin-top: 0.5rem;
+    color: var(--text-color);
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+/* Add some spacing between publication status sections */
+.research-area > div:last-child {
+    margin-bottom: 0;
+}
+
+/* Adjust spacing for first subsection title */
+.research-area h4.subsection-title:first-of-type {
+    margin-top: 1.5rem;
+}
+
+.cv-link {
+    color: var(--accent-color) !important;
+    font-weight: 600;
+    border: 1px solid var(--accent-color);
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.cv-link:hover {
+    background-color: var(--accent-color);
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* Section styles */
+.section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Research interests */
+.research-interests ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.research-interests li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.research-interests li:before {
+    content: "•";
+    color: var(--accent-color);
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+
+/* Publications */
+.publication-item {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 3px solid var(--accent-color);
+    background-color: var(--light-gray);
+    transition: transform 0.3s ease;
+}
+
+.publication-item:hover {
+    transform: translateX(10px);
+}
+
+.publication-authors {
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+.publication-title {
+    color: var(--primary-color);
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.publication-venue {
+    color: var(--accent-color);
+    font-size: 0.9em;
+}
+
+/* Education & Experience */
+.education-item, .experience-item {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.education-item:hover, .experience-item:hover {
+    background-color: var(--light-gray);
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.item-title {
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.item-date {
+    color: var(--accent-color);
+    font-style: italic;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    padding: 15px;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+}
+
+.skill-category h3 {
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .header {
+        padding: 20px 0;
+    }
+    
+    .profile-picture-container {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .section {
+        padding: 20px;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-info a {
+        margin: 5px 0;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #ecf0f1;
+        --secondary-color: #bdc3c7;
+        --text-color: #ecf0f1;
+        --light-gray: #2c3e50;
+        --border-color: #34495e;
+    }
+    
+    body {
+        background-color: #1a1a1a;
+    }
+    
+    .header, .section {
+        background-color: #2c3e50;
+    }
+    
+    .publication-item, .skill-category {
+        background-color: #34495e;
+    }
+}
+
+/* Print styles */
+@media print {
+    .header {
+        box-shadow: none;
+    }
+    
+    .section {
+        box-shadow: none;
+        border: 1px solid var(--border-color);
+        break-inside: avoid;
+    }
+    
+    .cv-link {
+        display: none;
+    }
+}
