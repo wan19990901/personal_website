@@ -249,6 +249,28 @@
                     grid-template-columns: 1fr;
                 }
             }
+
+            .quick-nav {
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .quick-nav h3 {
+                color: var(--primary-color);
+                margin-bottom: 0.5rem;
+            }
+
+            .quick-nav a {
+                color: var(--accent-color);
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+
+            .quick-nav a:hover {
+                color: var(--primary-color);
+            }
         </style>
     </head>
     <body>
@@ -264,6 +286,15 @@
                 <a href="https://github.com/wan19990901" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/guangya-wan-90b289189/" target="_blank">LinkedIn</a>
                 <a href="static/uploads/Guangya_Wan_CV.pdf" target="_blank" class="cv-link">Download CV</a>
+            </div>
+            <div class="quick-nav">
+                <h3>Quick Links</h3>
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#publications">Publications</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#service">Academic Service</a>
             </div>
         </aside>
     
@@ -333,6 +364,13 @@
                     <p>My work in healthcare AI focuses on developing fair and interpretable machine learning systems, particularly in clinical decision support and mental health applications.</p>
                 
                     <h4 class="subsection-title">Selected Work</h4>
+                    <div class="publication-item">
+                        <p class="publication-title"><strong>ProAI: Proactive Multi-Agent Conversational AI with Structured Knowledge Base for Psychiatric Diagnosis</strong> <a href="https://arxiv.org/abs/2502.20689" target="_blank">[Paper]</a></p>
+                        <p class="publication-authors">Wu Y*, Wan G*, Li J, Zhao S, Ma L, Ye T, Pop I, Zhang Y, Chen J. (*Equal Contribution)</p>
+                        <p class="publication-venue">Under Review, <a href="https://arxiv.org/abs/2502.20689" target="_blank">arXiv:2502.20689</a></p>
+                        <p class="publication-description">Developed a novel goal-oriented framework that enables LLMs to conduct proactive psychiatric diagnosis through structured knowledge integration and multi-agent reasoning, achieving 83.3% diagnostic accuracy while maintaining professional and empathetic interaction standards.</p>
+                    </div>
+
                     <div class="publication-item">
                         <p class="publication-title"><strong>Proactive LLM Doctor Agent for Mental Health Differential Diagnosis</strong></p>
                         <p class="publication-description">Developed a novel framework integrating structured domain knowledge with LLMs to create proactive conversational agents for Mental Health Differential Diagnosis based on different LLM expertise.</p>
@@ -461,26 +499,22 @@
                 </ul>
             </section>
 
-            <section class="section" id="teaching">
-                <h2 class="section-title">Teaching Experience</h2>
-                <div class="teaching-item">
-                    <h3>University of Virginia</h3>
+            <section class="section" id="service">
+                <h2 class="section-title">Academic Service & Teaching</h2>
+                <div class="service-category">
+                    <h3>Teaching Experience</h3>
+                    <p><strong>University of Virginia</strong></p>
                     <ul>
                         <li>CS 5012: Foundations of Computer Science (Summer 2024)</li>
                         <li>DS 6310: Statistics Inference Theory II: Inference & Prediction (Spring 2024)</li>
                         <li>DS 6030: Statistical Learning (Fall 2023)</li>
                     </ul>
-                </div>
-                <div class="teaching-item">
-                    <h3>Harvard University</h3>
+                    <p><strong>Harvard University</strong></p>
                     <ul>
                         <li>CS 109B: Data Science 2: Advanced Topics in Data Science (Spring 2023)</li>
                     </ul>
                 </div>
-            </section>
-
-            <section class="section" id="service">
-                <h2 class="section-title">Academic Service</h2>
+                
                 <div class="service-category">
                     <h3>Conference Reviewer</h3>
                     <ul>
@@ -489,6 +523,7 @@
                         <li>International Conference on Artificial Intelligence and Statistics (AISTATS) 2025</li>
                     </ul>
                 </div>
+                
                 <div class="service-category">
                     <h3>Journal Reviewer</h3>
                     <ul>
