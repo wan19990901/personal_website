@@ -289,8 +289,7 @@
             </div>
             <div class="quick-nav">
                 <h3>Quick Links</h3>
-                <a href="#about">About</a>
-                <a href="#research">Research</a>
+                <a href="#overview">Overview</a>
                 <a href="#publications">Publications</a>
                 <a href="#experience">Experience</a>
                 <a href="#education">Education</a>
@@ -299,138 +298,35 @@
         </aside>
     
         <main class="main-content">
-            <section class="section" id="about">
-                <h2 class="section-title">About Me</h2>
+            <section class="section" id="overview">
+                <h2 class="section-title">Overview</h2>
                 <p>I am a Ph.D. student in Data Science at the University of Virginia, where I am fortunate to be advised by 
                 <a href="https://sheng-li.org/" target="_blank">Dr. Sheng Li</a> at the 
                 <a href="https://riseai.github.io/" target="_blank">RISE Lab</a> and 
-                <a href="https://www.tomhartvigsen.com/" target="_blank">Dr. Tom Hartvigsen</a>. My research focuses on developing trustworthy Large Language Models through novel approaches in reasoning mechanisms and uncertainty estimation, leveraging multi-agent systems for enhanced reliability, and investigating human-aligned behaviors with applications in social science and healthcare.</p>
+                <a href="https://www.tomhartvigsen.com/" target="_blank">Dr. Tom Hartvigsen</a>. My research spans three main areas in artificial intelligence: developing trustworthy and efficient Large Language Models (LLMs) through novel approaches in <strong>reasoning mechanisms</strong>, <strong>uncertainty estimation</strong>, and <strong>error detection</strong>; investigating <strong>social intelligence</strong> in LLM systems through <strong>confidence calibration</strong> and <strong>bias mitigation</strong>; and applying these advances to <strong>healthcare</strong> and <strong>social science</strong> domains. I am particularly interested in building responsible AI systems that can be reliably deployed in critical domains, with current focus on <strong>psychiatric diagnosis</strong> and <strong>healthcare risk prediction</strong>.</p>
                 
                 <p>Prior to UVA, I completed my M.S. in Biostatistics at Harvard University, where I worked with 
                 <a href="https://cavalab.org/" target="_blank">Dr. William La Cava</a> on fairness-aware machine learning 
-                in healthcare applications. This experience shaped my interest in developing responsible AI systems that 
-                can be reliably deployed in critical domains.</p>
+                in healthcare applications. This experience laid the foundation for my current research in responsible AI development.</p>
 
                 <p><strong>I am seeking summer 2025 internship opportunities to drive innovation in responsible LLM development and deployment in industry.</strong></p>
             </section>
     
-            <section class="section" id="research">
-                <h2 class="section-title">Research</h2>
-                
-                <div class="research-area">
-                    <h3>Trustworthy and Efficient Large Language Models (LLM) Reasoning</h3>
-                    <p>My research focuses on developing efficient and reliable reasoning mechanisms for LLMs, with particular emphasis on the problems related to efficiency and uncertainty estimation.</p>
-                    
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>RASC: A Novel Framework for Efficient and Faithful Large Language Model Reasoning</strong></p>
-                        <p class="publication-authors">Wan G, Wu Y, Chen J, Li S.</p>
-                        <p class="publication-venue">NAACL 2025, <a href="https://arxiv.org/abs/2408.17017" target="_blank">arXiv:2408.17017</a></p>
-                        <p class="publication-description">Introduced RASC framework that systematically reduces LLM Self-Consistency sampling by ~70% while maintaining accuracy by evaluating both reasoning paths and final answers.</p>
-                    </div>
-                
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>CoT Rerailer: Enhancing the Reliability of Large Language Models in Complex Reasoning Tasks</strong></p>
-                        <p class="publication-authors">Wan G, Wu Y, Chen J, Li S.</p>
-                        <p class="publication-venue">ACL Under review, <a href="https://arxiv.org/abs/2408.13940" target="_blank">arXiv:2408.13940</a></p>
-                        <p class="publication-description">A novel two-stage system that first identifies flawed reasoning (Derailment) then fixes errors (Rerailment) in LLM outputs using consistency checks and multi-agent debate.</p>
-                    </div>
-
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>Bridging causal discovery and large language models: A comprehensive survey</strong></p>
-                        <p class="publication-authors">Wan G, Wu Y, Hu M, Chu Z, Li S.</p>
-                        <p class="publication-venue">IJCAI Under Review, <a href="https://arxiv.org/abs/2402.11068" target="_blank">arXiv:2402.11068</a> (2025)</p>
-                        <p class="publication-description">A comprehensive survey exploring the intersection of causal discovery and LLMs, outlining future research directions.</p>
-                    </div>
-
-                </div>
-                
-                <div class="research-area">
-                    <h3>Social Intelligence in LLM Systems</h3>
-                    <p>I investigate how LLMs understand and interact with social contexts, focusing on confidence calibration, bias mitigation, and social behavior modeling.</p>
-                
-                    <div class="project-item">
-                        <h4>Capability Drives Confidence: Measuring Model Uncertainty from a social lens</h4>
-                        <p>A social-psychological approach to measure and control LLMs' overconfidence through fine-tuning and prompts in specific social scenarios. Introduced a novel perspective to understand LLMs' overconfidence by linking it to social-psychological theory, and provided a new method related to reasoning length to efficiently detect the issues of LLMs' overconfidence measurement.</p>
-                    </div>
-                
-                    <div class="project-item">
-                        <h4>Evaluating Linguistic Bias in LLMs Through Race Role-Playing Scenarios</h4>
-                        <p>Developed systematic testing protocols to compare LLM responses between standardized English and African American English Preference tuned LLM, identifying bias patterns across social scenarios and proposing targeted interventions for fairness improvement.</p>
-                    </div>
-                </div>
-                
-                <div class="research-area">
-                    <h3>Applications in Healthcare and Social Science</h3>
-                    <p>My work in healthcare AI focuses on developing fair and interpretable machine learning systems, particularly in clinical decision support and mental health applications.</p>
-                
-                    <h4 class="subsection-title">Selected Work</h4>
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>ProAI: Proactive Multi-Agent Conversational AI with Structured Knowledge Base for Psychiatric Diagnosis</strong> <a href="https://arxiv.org/abs/2502.20689" target="_blank">[Paper]</a></p>
-                        <p class="publication-authors">Wu Y*, Wan G*, Li J, Zhao S, Ma L, Ye T, Pop I, Zhang Y, Chen J. (*Equal Contribution)</p>
-                        <p class="publication-venue">Under Review, <a href="https://arxiv.org/abs/2502.20689" target="_blank">arXiv:2502.20689</a></p>
-                        <p class="publication-description">Developed a novel goal-oriented framework that enables LLMs to conduct proactive psychiatric diagnosis through structured knowledge integration and multi-agent reasoning, achieving 83.3% diagnostic accuracy while maintaining professional and empathetic interaction standards.</p>
-                    </div>
-
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>Proactive LLM Doctor Agent for Mental Health Differential Diagnosis</strong></p>
-                        <p class="publication-description">Developed a novel framework integrating structured domain knowledge with LLMs to create proactive conversational agents for Mental Health Differential Diagnosis based on different LLM expertise.</p>
-                    </div>
-
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>Mind AI's Mind: Towards Transparent Automated Depression Diagnosis</strong></p>
-                        <p class="publication-description">Created a medical AI explanation pipeline combining XAI techniques and LLM-based reasoning for transparent depression diagnosis, achieving significant AI-Expert agreement scores and implementing a RAG-enhanced LLM reasoning system for natural language diagnostic reports.</p>
-                    </div>
-
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>Intrapartum electronic fetal heart rate monitoring to predict acidemia at birth with the use of deep learning</strong></p>
-                        <p class="publication-authors">McCoy JA, Levine LD, Wan G, et al.</p>
-                        <p class="publication-venue">American Journal of Obstetrics and Gynecology (2024)</p>
-                        <p class="publication-venue"><a href="https://www.ajog.org/article/S0002-9378(24)00528-3/abstract" target="_blank">View Article</a></p>
-                    </div>
-                
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>Two-step light gradient boosted model to identify human west nile virus infection risk factor in Chicago</strong></p>
-                        <p class="publication-authors">Wan G, Allen J, Ge W, et al.</p>
-                        <p class="publication-venue">PLOS ONE 19(1): e0296283 (2024)</p>
-                        <p class="publication-venue"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0296283" target="_blank">View Article</a></p>
-                    </div>
-                
-                    <div class="publication-item">
-                        <p class="publication-title"><strong>Fair admission risk prediction with proportional multicalibration</strong></p>
-                        <p class="publication-authors">La Cava WG, Lett E, Wan G.</p>
-                        <p class="publication-venue">Conference on Health, Inference, and Learning (2023)</p>
-                        <p class="publication-venue"><a href="https://proceedings.mlr.press/v209/la-cava23a/la-cava23a.pdf" target="_blank">View Paper</a></p>
-                    </div>
-                </div>
-            </section>
-
             <section class="section" id="experience">
                 <h2 class="section-title">Professional Experience</h2>
                 <div class="experience-item">
                     <h3>Chewy <span style="font-weight: normal; font-size: 0.9em;">— Boston, MA</span></h3>
                     <p class="experience-date">Data Scientist Intern (06/2022 - 08/2022)</p>
-                    <ul>
-                        <li>People Analytics: Extracted and analyzed product attributes using Snowflake SQL/Pyspark tools for consumer insights.</li>
-                        <li>Forecast Modelling: Enhanced demand forecasting accuracy by 20% by replacing KNN with advanced time-series clustering (DTW/tslearn) and implementing a LightGBM pipeline on AWS SageMaker for new product predictions.</li>
-                    </ul>
                 </div>
 
                 <div class="experience-item">
                     <h3>Boston Children Hospital <span style="font-weight: normal; font-size: 0.9em;">— Boston, MA</span></h3>
                     <p class="experience-date">Machine Learning Research Intern (Computational Health Informatics Program) (01/2022 - 04/2023)</p>
-                    <ul>
-                        <li>Fairness & Text analytics: Assessed text based ML model fairness in ED admissions using differential demography and equalized odds metrics, experimenting with various text encoding methods including word2vec and Sentence Transformer.</li>
-                        <li>Package Development: Developed a Python package for fairness-aware ML algorithms for Electronics Health Records, including data processing, model fitting (scikit-learn/XGB), and full documentation with version control in git.</li>
-                    </ul>
                 </div>
 
                 <div class="experience-item">
                     <h3>National Center for Super Computing Application <span style="font-weight: normal; font-size: 0.9em;">— Champaign, IL</span></h3>
                     <p class="experience-date">Machine Learning Research Intern (Student Pushing Innovation Program) (06/2019 - 12/2020)</p>
-                    <ul>
-                        <li>Big Data Processing: Architected end-to-end ML pipelines on HPC infrastructure to analyze 10GB+ virus outbreak data, implementing containerized workflows with Docker for reproducibility.</li>
-                        <li>Inference Acceleration: Optimized data processing through CUDA-accelerated ML models.</li>
-                    </ul>
                 </div>
             </section>
 
@@ -462,100 +358,73 @@
                 </div>
             </section>
 
-            <section class="section" id="skills">
-                <h2 class="section-title">Technical Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Machine Learning & AI</h3>
-                        <p>PyTorch, Hugging Face, LangChain/LangGraph, Transformers, Unsloth, LightGBM</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Big Data & Cloud</h3>
-                        <p>PySpark, AWS (EC2/SageMaker), Snowflake, Vertica, Dask</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Programming</h3>
-                        <p>Python, C/C++, R, SQL, NoSQL, Bash</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Development Tools</h3>
-                        <p>Docker, Git, Unix, VSCode, Cursor</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section" id="honors">
-                <h2 class="section-title">Honors and Awards</h2>
-                <ul class="honors-list">
-                    <li>Computational Health Informatics Programs Fellowship, Harvard University (2022)</li>
-                    <li>Honorable Mention Paper Award, Joint Mathematics Meetings (JMM) (2021)</li>
-                    <li>Summa Cum Laude (Graduation with highest honors), University of Illinois-Urbana Champaign (2020)</li>
-                    <li>Student Pushing Innovation (SPIN) Fellowship (2020)</li>
-                    <li>Canadian Undergraduate Mathematical Conference, Best Presentation Nominee (2020)</li>
-                    <li>Edmund J. James Scholar, University of Illinois-Urbana Champaign (2018-2020)</li>
-                    <li>Excellence in Undergraduate Research, Department of Mathematics, University of Illinois-Urbana Champaign (2019)</li>
-                    <li>Dean's List, University of Illinois-Urbana Champaign (2017-2020)</li>
-                    <li>Regional Champion, Canadian Senior Mathematics Competition, University of Waterloo (2016)</li>
-                </ul>
-            </section>
 
             <section class="section" id="service">
-                <h2 class="section-title">Academic Service & Teaching</h2>
+                <h2 class="section-title">Academic Service</h2>
                 <div class="service-category">
-                    <h3>Teaching Experience</h3>
-                    <p><strong>University of Virginia</strong></p>
+                    <h3>Teaching & Review Experience</h3>
+                    <p><strong>Teaching Assistant</strong></p>
                     <ul>
-                        <li>CS 5012: Foundations of Computer Science (Summer 2024)</li>
-                        <li>DS 6310: Statistics Inference Theory II: Inference & Prediction (Spring 2024)</li>
-                        <li>DS 6030: Statistical Learning (Fall 2023)</li>
+                        <li>University of Virginia
+                            <ul>
+                                <li>CS 5012: Foundations of Computer Science (Summer 2024)</li>
+                                <li>DS 6310: Statistics Inference Theory II: Inference & Prediction (Spring 2024)</li>
+                                <li>DS 6030: Statistical Learning (Fall 2023)</li>
+                            </ul>
+                        </li>
+                        <li>Harvard University
+                            <ul>
+                                <li>CS 109B: Data Science 2: Advanced Topics in Data Science (Spring 2023)</li>
+                            </ul>
+                        </li>
                     </ul>
-                    <p><strong>Harvard University</strong></p>
+                    
+                    <p><strong>Conference & Journal Reviews</strong></p>
                     <ul>
-                        <li>CS 109B: Data Science 2: Advanced Topics in Data Science (Spring 2023)</li>
-                    </ul>
-                </div>
-                
-                <div class="service-category">
-                    <h3>Conference Reviewer</h3>
-                    <ul>
-                        <li>Neural Information Processing Systems (NeurIPS) 2024</li>
-                        <li>International Conference on Learning Representations (ICLR) 2025</li>
-                        <li>International Conference on Artificial Intelligence and Statistics (AISTATS) 2025</li>
-                    </ul>
-                </div>
-                
-                <div class="service-category">
-                    <h3>Journal Reviewer</h3>
-                    <ul>
-                        <li>IEEE Computational Intelligence Magazine (CIM)</li>
+                        <li>Conference Reviews
+                            <ul>
+                                <li>Neural Information Processing Systems (NeurIPS) 2024</li>
+                                <li>International Conference on Machine Learning (ICML) 2025</li>
+                                <li>International Conference on Learning Representations (ICLR) 2025</li>
+                                <li>International Conference on Artificial Intelligence and Statistics (AISTATS) 2025</li>
+                            </ul>
+                        </li>
+                        <li>Journal Reviews
+                            <ul>
+                                <li>IEEE Computational Intelligence Magazine (CIM)</li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </section>
 
             <section class="section" id="publications">
-                <h2 class="section-title">Complete Publications</h2>
+                <h2 class="section-title">Publications</h2>
                 <div class="publications-list">
                     <ol>
                         <li>
-                            <p><strong>Wan G</strong>, Wu Y, Hu M, Chu Z, Li S. "Bridging causal discovery and large language models: A comprehensive survey of integrative approaches and future directions." IJCAI Under Review, arXiv preprint arXiv:2402.11068 (2025).</p>
+                            <p><strong>Wan G</strong>, Lu Y, Wu Y, Hu M, Li S. "Bridging causal discovery and large language models: A comprehensive survey of integrative approaches and future directions." IJCAI Under Review <a href="https://arxiv.org/abs/2402.11068" target="_blank">[Paper]</a></p>
                         </li>
                         <li>
-                            <p><strong>Wan G</strong>, Wu Y, Chen J, Li S. "Dynamic Self-Consistency: Leveraging Reasoning Paths for Efficient LLM Sampling." NAACL 2025.</p>
+                            <p>Zhou R*, <strong>Wan G*</strong>, Gabriel S, Li S, Gates AJ, Sap M, Hartvigsen T. (*Equal Contribution) "Disparities in LLM Reasoning Accuracy and Explanations: A Case Study on African American English." ARR Review <a href="https://arxiv.org/abs/submit/6249789" target="_blank">[Paper]</a></p>
                         </li>
                         <li>
-                            <p><strong>Wan G</strong>, Wu Y, Chen J, Li S. "CoT Rerailer: Enhancing the Reliability of Large Language Models in Complex Reasoning Tasks through Error Detection and Correction." ACL Under review arXiv preprint arXiv:2408.13940 (2024).</p>
+                            <p><strong>Wan G</strong>, Wu Y, Chen J, Li S. "Reasoning Aware Self-Consistency: Leveraging Reasoning Paths for Efficient LLM Sampling." NAACL 2025 <a href="https://arxiv.org/abs/2408.17017" target="_blank">[Paper]</a></p>
                         </li>
                         <li>
-                            <p>McCoy JA, Levine LD, <strong>Wan G</strong>, et al. "Intrapartum electronic fetal heart rate monitoring to predict acidemia at birth with the use of deep learning." American Journal of Obstetrics and Gynecology (2024).</p>
+                            <p><strong>Wan G</strong>, Wu Y, Wang H, Zhao S, Chen J, Li S. "Derailer-Rerailer: Adaptive Verification for Efficient and Reliable Language Model Reasoning." ARR Under review <a href="https://arxiv.org/abs/2408.13940" target="_blank">[Paper]</a></p>
                         </li>
                         <li>
-                            <p><strong>Wan G</strong>, Allen J, Ge W, et al. "Two-step light gradient boosted model to identify human west nile virus infection risk factor in Chicago." PLOS ONE 19(1): e0296283 (2024).</p>
+                            <p>Wu Y*, <strong>Wan G*</strong>, Li J, Zhao S, Ma L, Ye T, Pop I, Zhang Y, Chen J. (*Equal Contribution) "ProAI: Proactive Multi-Agent Conversational AI with Structured Knowledge Base for Psychiatric Diagnosis." ARR Under Review <a href="https://arxiv.org/abs/2502.20689" target="_blank">[Paper]</a></p>
                         </li>
                         <li>
-                            <p>La Cava WG, Lett E, <strong>Wan G</strong>. "Fair admission risk prediction with proportional multicalibration." Conference on Health, Inference, and Learning, 350-378 (2023).</p>
+                            <p>McCoy JA, Levine LD, <strong>Wan G</strong>, et al. "Intrapartum electronic fetal heart rate monitoring to predict acidemia at birth with the use of deep learning." American Journal of Obstetrics and Gynecology (2024) <a href="https://www.ajog.org/article/S0002-9378(24)00528-3/abstract" target="_blank">[Paper]</a></p>
                         </li>
                         <li>
-                            <p><strong>Wan G</strong>, Yang L, Bachina P, Qiu RN. "Testing Mathematical Models of Diabetes Against Blood Glucose Data." Canadian Undergraduate Mathematical Conference (2020).</p>
+                            <p><strong>Wan G</strong>, Allen J, Ge W, et al. "Two-step light gradient boosted model to identify human west nile virus infection risk factor in Chicago." PLOS ONE 19(1): e0296283 (2024) <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0296283" target="_blank">[Paper]</a></p>
+                        </li>
+                        <li>
+                            <p>La Cava WG, Lett E, <strong>Wan G</strong>. "Fair admission risk prediction with proportional multicalibration." Conference on Health, Inference, and Learning, 350-378 (2023) <a href="https://proceedings.mlr.press/v209/la-cava23a/la-cava23a.pdf" target="_blank">[Paper]</a></p>
                         </li>
                     </ol>
                 </div>
