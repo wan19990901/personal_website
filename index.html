@@ -1,129 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Guangya (Wayne) Wan — Ph.D. Candidate, University of Virginia</title>
-  <meta name="description" content="Guangya (Wayne) Wan — Ph.D. Candidate in Data Science at UVA. Research: trustworthy LLMs, efficient reasoning, social intelligence, and agents.">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Open Graph / Twitter -->
-  <meta property="og:title" content="Guangya (Wayne) Wan — Ph.D. Candidate, University of Virginia">
-  <meta property="og:description" content="Trustworthy & efficient reasoning with LLMs; social intelligence; agentic systems.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guangya (Wayne) Wan | AI Researcher</title>
+  <meta name="description" content="Guangya (Wayne) Wan is a Ph.D. candidate at the University of Virginia researching self-improving AI, long-horizon agents, efficient reasoning, and trustworthy AI.">
+  <meta name="theme-color" content="#101f3d">
+  <meta property="og:title" content="Guangya (Wayne) Wan | AI Researcher">
+  <meta property="og:description" content="Research on self-improving AI, long-horizon agents, efficient reasoning, and trustworthy AI.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="static/images/profile.jpg">
   <meta name="twitter:card" content="summary_large_image">
-
-  <style>
-    :root{
-      /* UVA-inspired, toned for readability */
-      --bg: #f7f8fb;
-      --card: #ffffff;
-      --ink: #1f2937;
-      --muted: #5b6676;
-      --primary: #232d4b;  /* UVA Navy */
-      --accent: #e57200;   /* UVA Orange */
-      --line: #e7ebf2;
-      --shadow: 0 10px 25px rgba(0,0,0,.06);
-      --sidebar: 300px;
-      --maxw: 1100px;
-      --r: 14px;
-    }
-    *{box-sizing:border-box;margin:0;padding:0}
-    html,body{height:100%}
-    body{
-      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      color:var(--ink);
-      background:var(--bg);
-      line-height:1.65;
-      display:flex;
-    }
-    a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
-    .sidebar{
-      width:var(--sidebar);
-      min-width:var(--sidebar);
-      border-right:1px solid var(--line);
-      background:var(--card);
-      padding:28px 22px;
-      position:sticky; top:0; height:100vh; overflow:auto;
-    }
-    .brand{
-      text-align:center; margin-bottom:22px;
-    }
-    .avatar{
-      width:180px; height:180px; border-radius:50%;
-      object-fit:cover; display:block; margin:0 auto 16px; box-shadow:var(--shadow)
-    }
-    .name{font-size:1.35rem; font-weight:700; color:var(--primary); margin-bottom:2px}
-    .title{font-size:.95rem; color:var(--muted)}
-    .contact{margin-top:16px; display:grid; gap:8px; font-size:.95rem}
-    .btn{
-      display:inline-block; padding:8px 12px; border:1px solid var(--accent); border-radius:10px;
-      color:var(--accent); font-weight:600;
-    }
-    .btn:hover{background:var(--accent); color:white; text-decoration:none}
-    .nav{margin-top:20px; border-top:1px solid var(--line); padding-top:16px}
-    .nav h3{font-size:.9rem; color:var(--muted); margin-bottom:10px; letter-spacing:.02em}
-    .nav a{display:block; padding:6px 8px; border-radius:8px; color:var(--ink)}
-    .nav a:hover{background:#f1f5ff}
-    main{flex:1; padding:32px; display:flex; justify-content:center}
-    .wrap{width:100%; max-width:var(--maxw)}
-    .grid{display:grid; grid-template-columns:2fr 1fr; gap:22px}
-    .card{
-      background:var(--card); border:1px solid var(--line); border-radius:var(--r);
-      padding:22px; box-shadow:var(--shadow)
-    }
-    .section-title{
-      font-size:1.1rem; letter-spacing:.01em; font-weight:700; color:var(--primary);
-      padding-bottom:8px; border-bottom:2px solid #f2f4fb; margin-bottom:14px
-    }
-    .lead{font-size:1.02rem}
-    .muted{color:var(--muted)}
-    .kicker{font-weight:700; color:var(--primary)}
-    .list-compact{display:grid; gap:12px}
-    .item h4{font-size:1rem; margin-bottom:4px}
-    .sub{font-size:.95rem; color:var(--muted)}
-    .pill{display:inline-block; font-size:.8rem; background:#f2f6ff; color:#3154d3; border-radius:999px; padding:2px 8px; margin-right:6px}
-    .publist{counter-reset:item}
-    .publist li{list-style:none; margin:12px 0; padding-left:28px; position:relative}
-    .publist li:before{
-      counter-increment:item; content: counter(item) ".";
-      position:absolute; left:0; top:0; color:var(--muted)
-    }
-    .pub a{font-weight:600}
-    .two-col{display:grid; grid-template-columns:1fr 1fr; gap:22px}
-    .footer{margin-top:22px; display:flex; justify-content:space-between; align-items:center; color:var(--muted); font-size:.9rem}
-    .meters{display:flex; gap:16px; align-items:center}
-    .meter{background:#f6f7fb; border:1px solid var(--line); border-radius:10px; padding:6px 10px}
-    .meter strong{color:var(--primary)}
-    @media (max-width: 1060px){
-      .grid{grid-template-columns:1fr}
-      .two-col{grid-template-columns:1fr}
-    }
-    @media (max-width: 860px){
-      .sidebar{position:fixed; z-index:10; height:auto; inset:0 auto auto 0; width:100%; min-width:unset}
-      main{margin-top:210px}
-      .avatar{width:120px;height:120px}
-    }
-    @media (prefers-reduced-motion: reduce){
-      *{scroll-behavior:auto}
-    }
-  </style>
-
-  <!-- Schema.org Person (helps Google Scholar/name cards) -->
+  <link rel="icon" type="image/jpeg" href="static/images/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <script type="application/ld+json">
   {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Guangya (Wayne) Wan",
-    "image":"static/images/profile.jpg",
-    "jobTitle":"Ph.D. Candidate in Data Science",
-    "affiliation":{"@type":"Organization","name":"University of Virginia"},
-    "email":"mailto:wxr9et@virginia.edu",
-    "url":"https://scholar.google.com/citations?user=Um_KuoYAAAAJ&hl=en",
-    "sameAs":[
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Guangya (Wayne) Wan",
+    "image": "static/images/profile.jpg",
+    "jobTitle": "Ph.D. Candidate in Data Science",
+    "affiliation": {"@type": "Organization", "name": "University of Virginia"},
+    "email": "mailto:wxr9et@virginia.edu",
+    "url": "https://gwan.netlify.app",
+    "sameAs": [
       "https://github.com/wan19990901",
       "https://www.linkedin.com/in/guangya-wan-90b289189/",
       "https://scholar.google.com/citations?user=Um_KuoYAAAAJ&hl=en"
@@ -132,253 +35,296 @@
   </script>
 </head>
 <body>
-  <aside class="sidebar" aria-label="Profile and navigation">
-    <div class="brand">
-      <img src="static/images/profile.jpg" alt="Portrait of Guangya (Wayne) Wan" class="avatar" loading="eager">
-      <div class="name">Guangya (Wayne) Wan</div>
-      <div class="title">Ph.D. Candidate · University of Virginia</div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top" aria-label="Guangya Wan home">
+        <span class="wordmark-mark">GW</span>
+        <span class="wordmark-name">Guangya Wan</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#background">Background</a>
+        <a class="nav-cta" href="static/uploads/CV_2026.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
+  </header>
 
-    <div class="contact" aria-label="Contact links">
-      <a href="mailto:wxr9et@virginia.edu" class="sub">Email</a>
-      <a href="https://scholar.google.com/citations?user=Um_KuoYAAAAJ&hl=en" target="_blank" rel="noopener" class="sub">Google Scholar</a>
-      <a href="https://github.com/wan19990901" target="_blank" rel="noopener" class="sub">GitHub</a>
-      <a href="https://www.linkedin.com/in/guangya-wan-90b289189/" target="_blank" rel="noopener" class="sub">LinkedIn</a>
-      <a href="static/uploads/CV_2026.pdf" target="_blank" rel="noopener" class="btn">Download CV</a>
-    </div>
-
-    <nav class="nav" aria-label="Section navigation">
-      <h3>On this page</h3>
-      <a href="#about">Overview</a>
-      <a href="#publications">Publications</a>
-      <a href="#education">Education</a>
-      <a href="#about-me">About Myself</a>
-      <a href="#experience">Experience</a>
-      <a href="#service">Academic Service</a>
-    </nav>
-  </aside>
-
-  <main>
-    <div class="wrap">
-      <div class="grid">
-        <!-- Left column -->
-        <section id="about" class="card">
-          <h2 class="section-title">Overview</h2>
-          <p class="lead">
-            I’m a Ph.D. candidate in Data Science at the University of Virginia, advised by
-            <a href="https://sheng-li.org/" target="_blank" rel="noopener">Sheng Li</a> (RISE Lab).
-            My research interests are <span class="kicker">LLM agents, multi‑agent systems, reasoning, and efficiency</span>.
-          </p>
-          <p class="muted" style="margin-top:8px">
-            Previously, I earned an M.S. in Biostatistics at Harvard, working with
-            <a href="https://cavalab.org/" target="_blank" rel="noopener">William La Cava</a> on fairness-aware ML in healthcare.
-            Before that, I completed my B.S. in Statistics (Summa Cum Laude) at UIUC.
-          </p>
-          <h3 class="sub" style="margin-top:12px">Research interests</h3>
-          <div style="margin-top:8px">
-            <span class="pill">LLM Agents</span>
-            <span class="pill">Multi‑Agent Systems</span>
-            <span class="pill">Reasoning</span>
-            <span class="pill">Efficiency</span>
-          </div>
-          <div class="card" style="margin-top:14px; background:#fff9f3; border-color:#ffe8d1">
-            <strong>Availability:</strong> Seeking a <em>Summer 2026</em> research internship in LLM agents, multi‑agent systems, reasoning, and efficiency.
-          </div>
-
-          <div class="card" style="margin-top:14px">
-            <h3 class="sub" style="display:flex; gap:10px; flex-wrap:wrap; align-items:baseline">
-              <span>Recent news</span>
-              <span class="muted">Our paper “Derailer‑Rerailer: Adaptive Verification for Efficient and Reliable Language Model Reasoning” (LLM reasoning & reliability) has been accepted to ACL Findings 2025.</span>
-            </h3>
-            <ul class="list-compact" style="margin-top:8px">
-              <li class="item"><div class="sub">COMPASS preprint available: <a href="https://arxiv.org/abs/2510.08790" target="_blank" rel="noopener">arXiv</a>.</div></li>
-              <li class="item"><div class="sub">BEACON preprint available: <a href="static/uploads/BEACON_FINAL.pdf" target="_blank" rel="noopener">PDF</a>.</div></li>
-            </ul>
-          </div>
-        </section>
-
-        <section id="education" class="card">
-          <h2 class="section-title">Education</h2>
-          <div class="list-compact">
-            <div class="item">
-              <h4>University of Virginia — Ph.D. in Data Science</h4>
-              <div class="sub">08/2023 – 05/2027 (expected) · Advisor: Sheng Li</div>
-              <div class="sub">Focus: LLM reasoning & agents; fairness & uncertainty; social intelligence</div>
-            </div>
-            <div class="item">
-              <h4>Harvard University — M.S. in Biostatistics (Data Science)</h4>
-              <div class="sub">08/2021 – 05/2023 · GPA: 3.89</div>
-            </div>
-            <div class="item">
-              <h4>UIUC — B.S. in Statistics (Summa Cum Laude)</h4>
-              <div class="sub">09/2017 – 12/2020 · Minor: CS & Mathematics · GPA: 3.94</div>
-            </div>
-          </div>
-        </section>
-
-        <section id="publications" class="card">
-          <h2 class="section-title">Selected Publications</h2>
-          <ol class="publist">
-            <li class="pub">
-              <div><strong>COMPASS: Enhancing Agent Long-Horizon Reasoning with Evolving Context.</strong> Under review, 2025. <a href="https://arxiv.org/abs/2510.08790" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub"><strong>G. Wan</strong>, M. Ling, X. Ren, R. Han, S. Li, Z. Zhang</div>
-            </li>
-            <li class="pub">
-              <div><strong>BEACON: Bayesian Optimal Stopping for Efficient LLM Sampling.</strong> Under review, 2025. <a href="static/uploads/BEACON_FINAL.pdf" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub"><strong>G. Wan</strong>, Z.S. Xu, S. Zorc, M. Baucells, M. Hu, H. Wang, S. Li</div>
-            </li>
-            <li class="pub">
-              <div><strong>Reasoning-Aware Self-Consistency: Leveraging Reasoning Paths for Efficient LLM Sampling.</strong> NAACL 2025. <a href="https://arxiv.org/abs/2408.17017" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub"><strong>G. Wan</strong>, Y. Wu, J. Chen, S. Li</div>
-            </li>
-            <li class="pub">
-              <div><strong>Derailer-Rerailer: Adaptive Verification for Efficient and Reliable Language Model Reasoning.</strong> ACL Findings 2025. <a href="https://arxiv.org/abs/2408.13940" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub"><strong>G. Wan</strong>, Y. Wu, H. Wang, S. Zhao, J. Chen, S. Li</div>
-            </li>
-            <li class="pub">
-              <div><strong>Disparities in LLM Reasoning Accuracy and Explanations: A Case Study on African American English.</strong> ARR (under review). <a href="https://arxiv.org/abs/6249789" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub">R. Zhou*, <strong>G. Wan*</strong>, S. Gabriel, S. Li, A. Gates, M. Sap, T. Hartvigsen (*equal)</div>
-            </li>
-            <li class="pub">
-              <div><strong>Bridging Causal Discovery and Large Language Models: A Survey.</strong> IJCAI 2025. <a href="https://arxiv.org/abs/2402.11068" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub"><strong>G. Wan</strong>, Y. Lu, Y. Wu, M. Hu, S. Li</div>
-            </li>
-            <li class="pub">
-              <div><strong>ProAI: Proactive Multi-Agent Conversational AI for Psychiatric Diagnosis.</strong> ARR (under review). <a href="https://arxiv.org/abs/2502.20689" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub">Y. Wu*, <strong>G. Wan*</strong>, J. Li, S. Zhao, L. Ma, T. Ye, I. Pop, Y. Zhang, J. Chen</div>
-            </li>
-            <li class="pub">
-              <div><strong>Deep Learning on Intrapartum FHR to Predict Acidemia at Birth.</strong> AJOG, 2024. <a href="https://www.ajog.org/article/S0002-9378(24)00528-3/abstract" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub">J.A. McCoy, L.D. Levine, <strong>G. Wan</strong>, et al.</div>
-            </li>
-            <li class="pub">
-              <div><strong>Two-step LightGBM for Human West Nile Virus Risk in Chicago.</strong> PLOS ONE 19(1): e0296283, 2024. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0296283" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub"><strong>G. Wan</strong>, J. Allen, W. Ge, et al.</div>
-            </li>
-            <li class="pub">
-              <div><strong>Fair Admission Risk Prediction with Proportional Multicalibration.</strong> CHIL, 2023. <a href="https://proceedings.mlr.press/v209/la-cava23a/la-cava23a.pdf" target="_blank" rel="noopener">Paper</a></div>
-              <div class="sub">W.G. La Cava, E. Lett, <strong>G. Wan</strong></div>
-            </li>
-          </ol>
-          <div class="sub" style="margin-top:8px">
-            Full list on <a href="https://scholar.google.com/citations?user=Um_KuoYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
-          </div>
-        </section>
-
-        <!-- Right column -->
-        <section id="experience" class="card">
-          <h2 class="section-title">Experience</h2>
-          <div class="list-compact">
-            <div class="item">
-              <h4>Student Researcher — Google</h4>
-              <div class="sub">Mountain View, CA · 05/2025–Present</div>
-            </div>
-            <div class="item">
-              <h4>Data Scientist Intern — Chewy</h4>
-              <div class="sub">Boston, MA · 06/2022–08/2022</div>
-            </div>
-            <div class="item">
-              <h4>ML Research Intern — Boston Children’s Hospital (CHIP)</h4>
-              <div class="sub">Boston, MA · 01/2022–04/2023</div>
-            </div>
-            <div class="item">
-              <h4>ML Research Intern — NCSA (Student Pushing Innovation)</h4>
-              <div class="sub">Champaign, IL · 06/2019–12/2020</div>
-            </div>
-          </div>
-        </section>
-
-        <section id="about-me" class="card">
-          <h2 class="section-title">About Myself</h2>
-          <p class="muted">Outside research, I enjoy exploration and the outdoors (visited 24 U.S. National Parks), photography (nature and astrophotography), and gaming (Teamfight Tactics).</p>
-        </section>
-
-        <section id="service" class="card">
-          <h2 class="section-title">Academic Service</h2>
-          <div class="two-col">
-            <div>
-              <h3 class="sub">Teaching Assistant</h3>
-              <ul class="list-compact">
-                <li class="item"><div class="sub"><strong>UVA:</strong> CS 5012 (Summer ’24), DS 6310 (Spring ’24), DS 6030 (Fall ’23)</div></li>
-                <li class="item"><div class="sub"><strong>Harvard:</strong> CS 109B (Spring ’23)</div></li>
-              </ul>
-            </div>
-            <div>
-              <h3 class="sub">Reviewer</h3>
-              <ul class="list-compact">
-                <li class="item"><div class="sub">NeurIPS 2024; ICML 2025; ICLR 2025; AISTATS 2025</div></li>
-                <li class="item"><div class="sub">IEEE Computational Intelligence Magazine</div></li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <div class="footer">
-        <div>© <span id="year"></span> Guangya (Wayne) Wan</div>
-        <div class="meters">
-          <div class="meter" title="Unique visits on this device">
-            Your visits: <strong><span id="localVisits">—</span></strong>
-          </div>
-          <div class="meter" title="Approximate global visits (CountAPI)">
-            Site visits: <strong><span id="globalVisits">—</span></strong>
-          </div>
-          <div class="sub">Last updated: <span id="updated"></span></div>
+  <main id="main">
+    <section id="top" class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Ph.D. candidate · AI researcher</p>
+        <h1>Building AI systems that <em>reason, adapt, and improve.</em></h1>
+        <p class="hero-lede">
+          I am Guangya (Wayne) Wan, a Ph.D. candidate in Data Science at the University of Virginia.
+          I study self-improving AI, long-horizon agents, efficient reasoning, and trustworthy AI.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#publications">Explore my research</a>
+          <a class="button button-secondary" href="static/uploads/CV_2026.pdf" target="_blank" rel="noopener">Download CV</a>
+        </div>
+        <div class="social-row" aria-label="Profile links">
+          <a href="mailto:wxr9et@virginia.edu">Email</a>
+          <a href="https://scholar.google.com/citations?user=Um_KuoYAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://github.com/wan19990901" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/guangya-wan-90b289189/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
-    </div>
+
+      <div class="portrait-wrap reveal" aria-label="Portrait of Guangya Wan">
+        <div class="portrait-frame">
+          <img src="static/images/profile.jpg" alt="Guangya (Wayne) Wan" width="400" height="400">
+        </div>
+        <div class="portrait-caption">
+          <span>University of Virginia</span>
+          <strong>Data Science · RISE Lab</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-band" aria-label="Recent highlights">
+      <div class="shell news-grid">
+        <p class="news-label">Recent highlights</p>
+        <div class="news-items">
+          <a href="#publications"><span>2026</span> SkillForge · EMNLP</a>
+          <a href="https://arxiv.org/abs/2510.08790" target="_blank" rel="noopener"><span>2026</span> COMPASS · ACL</a>
+          <a href="static/uploads/BEACON_FINAL.pdf" target="_blank" rel="noopener"><span>2026</span> BEACON · Findings of EMNLP</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section shell">
+      <div class="section-heading reveal">
+        <p class="section-index">01 / Research</p>
+        <h2>AI systems that get better through experience.</h2>
+        <p>My work connects agent design, test-time reasoning, and post-training to make capable AI systems more reliable and efficient over long horizons.</p>
+      </div>
+
+      <div class="focus-grid">
+        <article class="focus-card reveal">
+          <span class="focus-number">01</span>
+          <h3>Self-improving agents</h3>
+          <p>Agents that learn from successful and failed trajectories, refine reusable skills, and improve how they approach repeated tasks.</p>
+          <div class="focus-tags"><span>Auto-research</span><span>Long-horizon agents</span></div>
+        </article>
+        <article class="focus-card reveal">
+          <span class="focus-number">02</span>
+          <h3>Efficient reasoning</h3>
+          <p>Adaptive test-time compute, verification, and sampling strategies that spend inference resources only when they are useful.</p>
+          <div class="focus-tags"><span>Reasoning</span><span>Optimal stopping</span></div>
+        </article>
+        <article class="focus-card reveal">
+          <span class="focus-number">03</span>
+          <h3>Trustworthy AI</h3>
+          <p>Methods and evaluations for reliable, fair, and empathetic AI across language, healthcare, and real-world decision settings.</p>
+          <div class="focus-tags"><span>Reliability</span><span>Multimodal AI</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-tint">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="section-index">02 / Experience</p>
+          <h2>Research across academia and industry.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-meta">
+              <p>May 2026 — Sep 2026</p>
+              <span>Mountain View, CA</span>
+            </div>
+            <div class="timeline-body">
+              <p class="role-type">Research internship</p>
+              <h3>Waymo</h3>
+              <ul>
+                <li>Built an autonomous AI research agent that searches literature, proposes code changes, runs training, analyzes results, and iterates on motion-forecasting models.</li>
+                <li>Integrated the agent with an internal model-development pipeline for training and evaluation on autonomous-driving data.</li>
+                <li>Helped design GRPO training for driving-action prediction, including reward signals and an image-to-text data-cleaning pipeline.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-meta">
+              <p>May 2025 — Mar 2026</p>
+              <span>Mountain View, CA</span>
+            </div>
+            <div class="timeline-body">
+              <p class="role-type">Student researcher</p>
+              <h3>Google Cloud — Vertex AI</h3>
+              <ul>
+                <li>Developed production-level code for DeepResearch Agent.</li>
+                <li>Led SkillForge, a training-free framework for distilling validated procedural skills from successful and failed agent runs.</li>
+                <li>Led COMPASS, which improves long-horizon reasoning by maintaining and evolving an agent’s context as work unfolds.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-meta">
+              <p>Aug 2023 — Present</p>
+              <span>Charlottesville, VA</span>
+            </div>
+            <div class="timeline-body">
+              <p class="role-type">Graduate research assistant</p>
+              <h3>University of Virginia</h3>
+              <ul>
+                <li>Designed BEACON, a Bayesian optimal-stopping approach for efficient reward-guided LLM sampling.</li>
+                <li>Proposed Reasoning-Aware Self-Consistency and Derailer-Rerailer for efficient, adaptive reasoning verification.</li>
+                <li>Co-developed WiseMind, a knowledge-guided multi-agent framework for psychiatric diagnosis.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section shell">
+      <div class="section-heading heading-row reveal">
+        <div>
+          <p class="section-index">03 / Selected publications</p>
+          <h2>Recent work.</h2>
+        </div>
+        <a class="text-link" href="https://scholar.google.com/citations?user=Um_KuoYAAAAJ&amp;hl=en" target="_blank" rel="noopener">View Google Scholar <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="publication-list">
+        <article class="publication reveal">
+          <div class="pub-year">2026</div>
+          <div class="pub-copy">
+            <p class="pub-venue">EMNLP 2026 · To appear</p>
+            <h3>SkillForge: Learning from Success–Failure Boundaries for Consistent Long-Horizon Agents</h3>
+            <p><strong>G. Wan</strong>, H. Wang, X. Ling, M. Ling, X. Ren, S. Li</p>
+          </div>
+          <span class="pub-index">01</span>
+        </article>
+
+        <article class="publication reveal">
+          <div class="pub-year">2026</div>
+          <div class="pub-copy">
+            <p class="pub-venue">ACL 2026</p>
+            <h3>COMPASS: Enhancing Agent Long-Horizon Reasoning with Evolving Context</h3>
+            <p><strong>G. Wan</strong>, M. Ling, X. Ren, R. Han, S. Li, Z. Zhang</p>
+            <a href="https://arxiv.org/abs/2510.08790" target="_blank" rel="noopener">Paper ↗</a>
+          </div>
+          <span class="pub-index">02</span>
+        </article>
+
+        <article class="publication reveal">
+          <div class="pub-year">2026</div>
+          <div class="pub-copy">
+            <p class="pub-venue">Findings of EMNLP 2026 · To appear</p>
+            <h3>BEACON: Bayesian Optimal Stopping for Efficient LLM Sampling</h3>
+            <p><strong>G. Wan</strong>, Z.S. Xu, S. Zorc, M. Baucells, M. Hu, H. Wang, S. Li</p>
+            <a href="static/uploads/BEACON_FINAL.pdf" target="_blank" rel="noopener">Paper ↗</a>
+          </div>
+          <span class="pub-index">03</span>
+        </article>
+
+        <article class="publication reveal">
+          <div class="pub-year">2025</div>
+          <div class="pub-copy">
+            <p class="pub-venue">NAACL 2025</p>
+            <h3>Reasoning-Aware Self-Consistency: Leveraging Reasoning Paths for Efficient LLM Sampling</h3>
+            <p><strong>G. Wan</strong>, Y. Wu, J. Chen, S. Li</p>
+            <a href="https://arxiv.org/abs/2408.17017" target="_blank" rel="noopener">Paper ↗</a>
+          </div>
+          <span class="pub-index">04</span>
+        </article>
+
+        <article class="publication reveal">
+          <div class="pub-year">2025</div>
+          <div class="pub-copy">
+            <p class="pub-venue">Findings of ACL 2025</p>
+            <h3>Derailer-Rerailer: Adaptive Verification for Efficient and Reliable Language Model Reasoning</h3>
+            <p><strong>G. Wan</strong>, Y. Wu, H. Wang, S. Zhao, J. Chen, S. Li</p>
+            <a href="https://arxiv.org/abs/2408.13940" target="_blank" rel="noopener">Paper ↗</a>
+          </div>
+          <span class="pub-index">05</span>
+        </article>
+
+        <article class="publication reveal">
+          <div class="pub-year">2026</div>
+          <div class="pub-copy">
+            <p class="pub-venue">npj Digital Medicine</p>
+            <h3>WiseMind: A Knowledge-Guided Multi-Agent Framework for Accurate and Empathetic Psychiatric Diagnosis</h3>
+            <p>Y. Wu*, <strong>G. Wan*</strong>, J. Li, S. Zhao, L. Ma, T. Ye, I. Pop, Y. Zhang, J. Chen</p>
+            <a href="https://doi.org/10.1038/s41746-026-02559-9" target="_blank" rel="noopener">Paper ↗</a>
+          </div>
+          <span class="pub-index">06</span>
+        </article>
+      </div>
+      <p class="equal-note">* Equal contribution.</p>
+    </section>
+
+    <section id="background" class="section section-dark">
+      <div class="shell background-grid">
+        <div class="section-heading reveal">
+          <p class="section-index">04 / Background</p>
+          <h2>Training, service, and tools.</h2>
+          <p>My background spans data science, biostatistics, computer science, and applied machine learning.</p>
+        </div>
+
+        <div class="background-content">
+          <div class="background-block reveal">
+            <h3>Education</h3>
+            <div class="credential">
+              <p><strong>University of Virginia</strong><span>Aug 2023 — Dec 2027 (expected)</span></p>
+              <p>Ph.D. in Data Science · Advisor: Prof. Sheng Li</p>
+            </div>
+            <div class="credential">
+              <p><strong>Harvard University</strong><span>Aug 2021 — May 2023</span></p>
+              <p>M.S. in Biostatistics · GPA: 3.90/4.0</p>
+            </div>
+            <div class="credential">
+              <p><strong>University of Illinois Urbana-Champaign</strong><span>Sep 2017 — Dec 2020</span></p>
+              <p>B.S. in Statistics, Magna Cum Laude · GPA: 3.94/4.0</p>
+            </div>
+          </div>
+
+          <div class="background-columns">
+            <div class="background-block reveal">
+              <h3>Academic service</h3>
+              <p><strong>Conference reviewer</strong><br>NeurIPS, ICLR, ICML, ACL, COLM, AISTATS</p>
+              <p><strong>Journal reviewer</strong><br>IEEE Computational Intelligence Magazine</p>
+              <p><strong>Teaching assistant</strong><br>UVA and Harvard</p>
+            </div>
+            <div class="background-block reveal">
+              <h3>Technical toolkit</h3>
+              <p>PyTorch, JAX, Hugging Face, TRL, DeepSpeed, FSDP, VeRL, vLLM, SGLang, Google ADK, LangGraph, DSPy, GCP, AWS, Docker, Kubernetes, Slurm, Python, and SQL.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section shell reveal">
+      <p class="section-index">Let’s connect</p>
+      <h2>Interested in reasoning systems and agents?</h2>
+      <p>I’m always glad to discuss research, collaborations, and ambitious AI systems.</p>
+      <a class="button button-primary" href="mailto:wxr9et@virginia.edu">wxr9et@virginia.edu</a>
+    </section>
   </main>
 
-  <script>
-    // Smooth in-page nav
-    document.querySelectorAll('a[href^="#"]').forEach(a=>{
-      a.addEventListener('click', e=>{
-        const id = a.getAttribute('href');
-        if(id.length > 1){
-          e.preventDefault();
-          document.querySelector(id)?.scrollIntoView({behavior:'smooth', block:'start'});
-        }
-      });
-    });
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>© <span id="year"></span> Guangya (Wayne) Wan</p>
+      <div>
+        <a href="#top">Back to top ↑</a>
+        <a href="static/uploads/CV_2026.pdf" target="_blank" rel="noopener">CV</a>
+      </div>
+    </div>
+  </footer>
 
-    // Footer helpers
-    document.getElementById('year').textContent = new Date().getFullYear();
-    document.getElementById('updated').textContent = document.lastModified?.split(' ').slice(0,3).join(' ') || '';
-
-    // --- Visit Counters ---
-    // (A) Per-device counter via localStorage (no network)
-    try{
-      const KEY = 'site_local_visits_v1';
-      const isNewSessionKey = 'site_session_seen_v1';
-      const now = Date.now();
-      // Avoid counting multiple times on hard refresh within the same session:
-      const sessionAliveMs = 30 * 60 * 1000; // 30 min
-      const lastSeen = Number(sessionStorage.getItem(isNewSessionKey) || 0);
-      let visits = Number(localStorage.getItem(KEY) || 0);
-
-      if (!lastSeen || (now - lastSeen) > sessionAliveMs) {
-        visits += 1;
-        localStorage.setItem(KEY, String(visits));
-        sessionStorage.setItem(isNewSessionKey, String(now));
-      }
-      document.getElementById('localVisits').textContent = visits.toLocaleString();
-    }catch(e){
-      document.getElementById('localVisits').textContent = 'N/A';
-    }
-
-    // (B) Global counter using CountAPI (public, no signup)
-    (function(){
-      const namespace = 'wan19990901.github.io'; // stable namespace (e.g., your GitHub Pages domain)
-      const key = 'site_visits_v1';
-      const endpoint = `https://api.countapi.xyz/hit/${encodeURIComponent(namespace)}/${encodeURIComponent(key)}`;
-      fetch(endpoint, {cache:'no-store'})
-        .then(r => r.ok ? r.json() : Promise.reject(r.status))
-        .then(data => {
-          const n = (data && (data.value ?? data.count)) || 0;
-          document.getElementById('globalVisits').textContent = Number(n).toLocaleString();
-        })
-        .catch(()=>{ document.getElementById('globalVisits').textContent = '—'; });
-    })();
-  </script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
